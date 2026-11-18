@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #fafafa; color: #18181b; font: 16px system-ui, sans-serif; }
+body.dark { background: #09090b; color: #fafafa; }
+main { width: min(100% - 2rem, 32rem); margin: 3rem auto; }
+h1 { font-size: 1.65rem; }
+h2 { font-size: 1.15rem; margin: 0 0 .5rem; }
+section { border: 1px solid #a1a1aa; border-radius: .75rem; padding: 1.1rem; margin: 1rem 0; }
+button, input { border: 1px solid #a1a1aa; border-radius: .45rem; padding: .55rem .7rem; background: transparent; color: inherit; font: inherit; margin: .2rem; }
+button { cursor: pointer; }
+output { display: block; margin: .55rem 0; }
+#count { font-size: 2rem; font-variant-numeric: tabular-nums; }
